@@ -5,31 +5,31 @@ super + shift + Return
     urxvt
 
 super + shift + c
-    killwa $(pfw)
+    ukll -w $(ufw)
 
 super + Down
-	wmv 0 20 $(pfw)
+	umv -y 20 -w $(ufw)
 
 super + Up
-	wmv 0 -20 $(pfw)
+	umv -y -20 -w $(ufw)
 
 super + Right
-	wmv 20 0 $(pfw)
+	umv -x 20 -w $(ufw)
 
 super + Left
-	wmv -20 0 $(pfw)
+	umv -x -20 -w $(ufw)
 
 super + shift + Down
-	wrs 0 20 $(pfw)
+	urs -y 20 -w $(ufw)
 
 super + shift + Up
-	wrs 0 -20 $(pfw)
+	urs -y -20 -w $(ufw)
 
 super + shift + Right
-	wrs 20 0 $(pfw)
+	urs -x 20 -w $(ufw)
 
 super + shift + Left
-	wrs -20 0 $(pfw)
+	urs -x -20 -w $(ufw)
 
 super + m
 	sh ~/etc/scripts/fullscreen.sh $(pfw)
