@@ -1,0 +1,15 @@
+#!/bin/sh
+cachedir=${XDG_CACHE_HOME:-"$HOME/.cache"}
+if [ -d "$cachedir" ]; then
+	cache=$cachedir/dmenu_run
+else
+	cache=$HOME/.dmenu_cache # if no xdg dir, fall back to dotfile in ~
+fi
+(
+	IFS=:
+	if stest -dqr -n "$cache" $PATH; then
+		stest -flx $PATH | sort -u | tee "$cache" | dmenu -fn "MonteCarlo:pixelsize=8" -h "25" -i  -nb "#1B1B1A" -b -sb "#b0b0a2" -sf "#1B1B1A" -p " Run... " "$@"
+	else
+		dmenu -i -fn "MonteCarlo:pixelsize=8" -h "20" -nb "#1B1B1A" -b -sb "#b0b0a2" -sf "#1B1B1A" "$@" -p " Run... " < "$cache"
+	fi
+) | ${SHELL:-"/bin/sh"} &

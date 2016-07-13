@@ -1,0 +1,15 @@
+# Clock
+#/home/rndtx/.config/openbox/misc/clock.sh &
+
+# load bitmaps fonts
+xset +fp ~/.fonts &
+xset fp rehash &
+
+# highcontrast screen
+xcalib ~/.x230.icm  &
+
+# panel
+tint2 &
+
+# LowMouse
+LowMouse &
