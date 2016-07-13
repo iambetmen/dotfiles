@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Fix Fonts
+xset +fp ~/.fonts &
+xset fp rehash &
+
+# load term colors
+xrdb ~/.x/xres &
+
+# Low Mouse
+LowMouse &
+
+# Fix X Pointer
+xsetroot -cursor_name left_ptr &
+
+# Load Colors
+merge &
+
+# Load Wallpaper
+#nitrogen --restore &
+feh --bg-tile ~/.bg &
+
+# Daemons and Programs
+# compton &
+sxhkd &
+thunar --daemon &
+urxvt -q -o -f 100 &
+
+# Panel
+# ~/bin/panel | ~/bin/bar &
+
+# Window Manager
+exec swm
