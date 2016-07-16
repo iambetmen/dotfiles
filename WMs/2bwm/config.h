@@ -11,13 +11,13 @@ static const float    resize_keep_aspect_ratio= 1.03;
 ///---Offsets---///
 /*0)offsetx          1)offsety
  *2)maxwidth         3)maxheight */
-static const uint8_t offsets[] = {10,45,20,55};
+static const uint8_t offsets[] = {0,40,0,40};
 ///---Colors---///
 /*0)focuscol         1)unfocuscol
  *2)fixedcol         3)unkilcol
  *4)fixedunkilcol    5)outerbordercol
  *6)emptycol         */
-static const char *colors[] = {"#9d8554","#222221","#996140","#566e6b","#7b6064","#1b1b1a","#1b1b1a"};
+static const char *colors[] = {"#1b1b1a","#222221","#996140","#566e6b","#7b6064","#1b1b1a","#1b1b1a"};
 /*
  * If you are using a composition manager enable the COMPTON flag in the Makefile
  * (By changing -DNCOMPTON to -DCOMPTON)
@@ -29,12 +29,12 @@ static const bool inverted_colors = false;
  * correct values are:
  * TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, MIDDLE
  * All these are relative to the current window. */
-#define CURSOR_POSITION BOTTOM_RIGHT
+#define CURSOR_POSITION MIDDLE
 ///---Borders---///
 /*0) Outer border size. If you put this negative it will be a square.
  *1) Full borderwidth    2) Magnet border size
  *3) Resize border size  */
-static const uint8_t borders[] = {1,4,4,4};
+static const uint8_t borders[] = {3,5,5,4};
 /* Windows that won't have a border.*/
 #define LOOK_INTO "WM_NAME"
 static const char *ignore_names[] = {"bar", "xclock"};

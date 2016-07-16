@@ -1,0 +1,114 @@
+! Colors
+!*background:   bg
+!*foreground:   fg
+!*cursorColor:  cyn
+
+!*color0:      blk
+!*color8:      bblk
+!*color1:      red
+!*color9:      red
+!*color2:      grn
+!*color10:     grn
+!*color3:      ylw
+!*color11:     ylw
+!*color4:      blu
+!*color12:     blu
+!*color5:      mag
+!*color13:     mag
+!*color6:      cyn
+!*color14:     cyn
+!*color7:      wht
+!*color15:     wht
+
+!------------------------------------------------
+
+urxvt.geometry: 109x23
+!urxvt.letterSpace: -1
+urxvt.allow_bold: false
+urxvt.internalBorder: 20
+
+!------------------------------------------------
+
+!dmenu.font:				-windows-montecarlo-medium-r-normal-*-11-*-*-*-*-*-*-*
+!dmenu.background:			#121212
+!dmenu.foreground:			#D7D0C7
+!dmenu.selbackground:		#121212
+!dmenu.selforeground:		#78AEC8
+
+!------------------------------------------------
+
+urxvt*saveLines: 2048
+urxvt.scrollBar: false
+!urxvt*scrollstyle: plain
+urxvt*cursorBlink: true
+!urxvt*cursorUnderline: false
+
+!------------------------------------------------
+
+urxvt.tabbedex.autohide: no
+urxvt.tabbedex.tabbar-fg: 2
+urxvt.tabbedex.tabbar-bg: 0
+urxvt.tabbedex.tab-fg: 10
+urxvt.tabbedex.tab-bg: 0
+urxvt.tabbedex.title: no
+urxvt.tabbedex.new-button: no
+
+!------------------------------------------------
+
+!*.highlightColor: lbg
+!*.highlightTextColor: #d7d7d7
+!*color16: bg
+!*color17: lbg
+!*color18: fg
+
+!-----------------------------------------------
+
+!URxvt*font: xft:gmnterm:size=8
+!URxvt*boldFont: xft:gmnterm:size=8
+
+!URxvt.font:		xft:M+ 1m:regular:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.boldFont:	xft:M+ 1m:bold:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.italicFont: 	xft:M+ 1m:italic:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.bolditalicFont:	xft:M+ 1m:bold:italic:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+
+!URxvt.font:		xft:Input Mono Condensed:Medium:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.boldFont:	xft:Input Mono Condensed:Bold:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.italicFont: 	xft:Input Mono Condensed:Italic:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+!URxvt.bolditalicFont:	xft:Input Mono Condensed:Bold:italic:size=8:lcdfilter=lcddefault:hintstyle=hintfull:hinting=true:rgba=rgb:antialias=true:autohint=false
+
+!-----------------------------------------------
+
+!URxvt*font: -kori-metis-normal-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -kori-metis-normal-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*italicFont: -kori-metis-normal-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -kori-metis-normal-r-normal-*-*-*-*-*-*-*-*-*
+
+!URxvt*font: -jmk-dweep-medium-r-semicondensed-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -jmk-dweep-medium-r-semicondensed-*-*-*-*-*-*-*-*-*
+!URxvt*italicFont: -jmk-dweep-medium-r-semicondensed-*-*-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -jmk-dweep-medium-r-semicondensed-*-*-*-*-*-*-*-*-*
+
+!URxvt*font: -lucy-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -lucy-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*italicFont: -lucy-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -lucy-tewi-medium-r-normal-*-*-*-*-*-*-*-*-*
+
+!URxvt*font: -windows-montecarlo-medium-r-normal-*-11-*-*-*-*-*-*-*
+!URxvt*boldFont: -windows-montecarlo-medium-r-normal-*-11-*-*-*-*-*-*-*
+!URxvt*italicFont: -windows-montecarlo-medium-r-normal-*-11-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -windows-montecarlo-medium-r-normal-*-11-*-*-*-*-*-*-*
+
+URxvt*font: -jmk-neepmod-medium-r-normal-*-*-*-*-*-*-*-*-*
+URxvt*boldFont: -jmk-neepmod-medium-r-normal-*-*-*-*-*-*-*-*-*
+URxvt*bolditalicFont: -jmk-neepmod-medium-r-normal-*-*-*-*-*-*-*-*-*
+URxvt*italicFont: -jmk-neepmod-medium-r-normal-*-*-*-*-*-*-*-*-*
+
+!URxvt*font: -lokaltog-fixed-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -lokaltog-fixed-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*italicFont: -lokaltog-fixed-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -lokaltog-fixed-medium-r-normal-*-*-*-*-*-*-*-*-*
+
+!URxvt*font: -benis-uushi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*boldFont: -benis-uushi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*italicFont: -benis-uushi-medium-r-normal-*-*-*-*-*-*-*-*-*
+!URxvt*bolditalicFont: -benis-uushi-medium-r-normal-*-*-*-*-*-*-*-*-*
